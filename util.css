@@ -1,0 +1,82 @@
+.max-width1 {
+  max-width: 80vw;
+  margin: auto;
+}
+.max-width2 {
+  max-width: 60vw;
+}
+.margin {
+  margin: auto;
+}
+.btn {
+  border: 2px solid rgb(204, 174, 174);
+  color: bl;
+  margin: 5px;
+  padding: 2px;
+  cursor: pointer;
+}
+.btn:hover {
+  color: white;
+  background-color: rgb(62, 116, 126);
+  transition: all 0.3s ease-in-out;
+}
+.nav-right {
+  display: flex;
+}
+.nav-left {
+  margin: 5px 5px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 28px;
+}
+.nav-right {
+  font-size: 4px;
+  padding: 10px;
+}
+.nav-right .chat {
+  font-size: 2px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+input {
+  border: 2px solid black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 4px;
+}
+.nav-left ul li {
+  margin: 50px;
+  font-size: 23px;
+  transition: all 0.2s ease-in-out;
+  list-style: none;
+  display: inline;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-top: -15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.my-2 {
+  margin: 20px 0px;
+}
+.home-article-content {
+  padding: 25px;
+  align-self: center;
+}
+.nav-left ul li:hover {
+  color: brown;
+  font-weight: 500px;
+}
+.nav-left ul {
+  list-style: none;
+  display: inline;
+  text-align: center;
+}
+.btn-Login {
+  border: 2px solid rgb(204, 174, 174);
+  color: bl;
+  margin: 5px;
+  padding: 2px;
+  cursor: pointer;
+  color: black;
+}
+.btn-Login:hover{
+  background-color: rgb(32, 219, 116);
+}
